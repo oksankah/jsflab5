@@ -1,7 +1,7 @@
 import express from "express"; 
 import cors from "cors"; 
 import dotenv from "dotenv"; 
-import { connectDB } from "./services/db.js"; 
+import { connectDB } from "../services/db.js"; 
 import productRoutes from "./controllers/productRoutes.js"; [cite_start]
 dotenv.config(); 
 const app = express(); 
