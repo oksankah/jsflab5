@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors"; 
 import dotenv from "dotenv"; 
 import { connectDB } from "./services/db.js"; 
-import productRoutes from "./routes/productRoutes.js"; [cite_start]
+import productRoutes from "./controllers/productRoutes.js"; [cite_start]
 dotenv.config(); 
 const app = express(); 
 // CORS setup (allow only your UI domain) 
